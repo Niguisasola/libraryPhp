@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import iconoEditar from "../assets/img/editar.png";
 import iconoEliminar from "../assets/img/eliminar.png"
 import ImageBook from "./ImageBook";
+import postDelete from "../services/delete";
 
-function BookItem ({ titol, isbn, autoria, descriptors }) {
+function BookItem ({ titol, isbn, autoria, descriptors, id}) {
 return (
 <>
   <div>
@@ -22,7 +23,9 @@ return (
         <Link to="/modifiedBook">
           <img src={iconoEditar} className="icono" alt="imagen icono editar"/>
         </Link>
-        <img src={iconoEliminar} className="icono" alt="imagen icono eliminar"/>
+        <button onClick={(e) => postDelete(id)}>
+          <img src={iconoEliminar} className="icono" alt="imagen icono eliminar"/>
+          </button>
       </div>
     </div>
   </div>

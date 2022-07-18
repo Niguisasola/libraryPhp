@@ -19,7 +19,7 @@ function BookList (){
                 <div className="flex-wrap row row-cols-1 row-cols-md-4">
                 {
                     booksApi.map((item,index)=>(
-                        <BookItem key={index} titol={item.titol} autoria={item.autoria} isbn={item.isbn}/>
+                        <BookItem id={item.id} key={index} titol={item.titol} autoria={item.autoria} isbn={item.isbn}/>
                     ))
                 }
                 </div>

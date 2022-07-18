@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Jost:wght@300;400;600&display=swap');
+
+.logo{
+    width: 100px;
+}
+
+
+.container-fluid{
+    background-color: #D5B164;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-family: 'Gabriela';
+}
+
+.navbar-nav .nav-link.active{
+    color: white !important;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+

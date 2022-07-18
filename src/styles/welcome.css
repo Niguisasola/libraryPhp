@@ -1,0 +1,35 @@
+* {
+    background-color: #D5B164;
+}
+
+.welcome-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.welcome-sec-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.welcome-h2{
+    width: 475px;
+    margin-bottom: 50px;
+    font-size: 55px;
+    font-family: "Gabriela";
+    color: white;
+}
+
+.welcome-sec-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-img{
+    width: 800px;
+    height: 800px;
+}

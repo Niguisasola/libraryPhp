@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Jost:wght@300;400;600&display=swap');
+
+.cardBookItem{
+    min-width: 100%;
+    max-width: 150%;
+    width: 50%;
+    height: 98% !important;
+}
+
+.cardBodyBook{
+    font-size: smaller;
+    font-family: 'Gabriela';
+    list-style: none;
+    margin: 20px;
+
+}
+.cardImgBook{
+    max-width: 100%;
+    max-height: 100%;
+    height: 280px;
+}
+
+.icono{
+    width:30px;
+    background-color: white;
+
+}
+
+.contenedorIconos{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px){
+    .cardBookItem{
+        max-width: 150%;
+        width: 50%;
+        height: 98% !important;
+    }
+}
